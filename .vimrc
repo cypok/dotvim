@@ -29,10 +29,8 @@ set guioptions-=T
 
 set tags+=~/.vim/systags
 
-let g:EnhCommentifyPretty = 'Yes'
-
 let g:gist_open_browser_after_post = 1
-let g:gist_browser_command = 'firefox-3.5 %URL%'
+let g:gist_browser_command = 'opera %URL% &'
 
 nmap <C-}> :tabnext
 imap <C-}> <Esc>:tabnext
@@ -49,8 +47,6 @@ imap <C-k> <Esc><C-w>ka
 nmap <C-l> <C-w>l
 imap <C-l> <Esc><C-w>la
 nmap <C-n> <C-w>n
-nmap <C-u> <C-w>+
-nmap <C-i> <C-w>-
 nmap <C-m> <C-w>_
 " imap <C-m> <Esc><C-w>_a
 
