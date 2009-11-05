@@ -16,8 +16,8 @@ autocmd BufReadPost *
 \ endif
 
 colorscheme vividchalk
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set autoindent
 set expandtab
 set number
