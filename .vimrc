@@ -32,6 +32,8 @@ set tags+=~/.vim/systags
 let g:gist_open_browser_after_post = 1
 let g:gist_browser_command = 'opera %URL% &'
 
+au BufNewFile,BufRead *.ldg,*.ledger setf ledger
+
 nmap <C-}> :tabnext
 imap <C-}> <Esc>:tabnext
 nmap <C-{> :tabprevious
