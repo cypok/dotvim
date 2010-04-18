@@ -26,7 +26,7 @@ set winminheight=0
 set foldmethod=indent
 set foldlevelstart=99 " all folds are opened
 set guioptions-=T
-set guifont=Monaco\ 8
+set guifont=Monaco\ 8,Andale\ Mono\ 11,Lucida_Console:h9.5
 
 set tags+=~/.vim/systags
 
