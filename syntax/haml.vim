@@ -13,6 +13,7 @@ endif
 let b:ruby_no_expensive = 1
 
 runtime! syntax/html.vim
+runtime! syntax/html5.vim
 unlet! b:current_syntax
 silent! syn include @hamlSassTop syntax/sass.vim
 unlet! b:current_syntax
