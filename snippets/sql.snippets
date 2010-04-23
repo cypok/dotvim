@@ -1,0 +1,17 @@
+# (c) holds no legal value ;)
+snippet create
+	create table ${1:name}(
+		id  integer not null primary key,
+		${2}
+	);
+
+snippet drop
+	drop table ${1:table} cascade constraints;
+snippet fld
+	${1:name}	${2:type},
+snippet fk
+	${1:name}_id  integer not null references ${2:table}(id),
+snippet ck
+	constraint ck_${1:name} check (${2:condition}),
+snippet pk
+	constraint pk_${1:name} primary key (${2:columns}),
