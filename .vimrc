@@ -37,6 +37,7 @@ let g:gist_detect_filetype = 1
 
 au BufNewFile,BufRead *.ldg,*.ledger setf ledger
 au BufNewFile,BufRead *.ob2 setf oberon2
+au BufNewFile,BufRead *.g setf antlr3
 
 nmap <C-}> :tabnext
 imap <C-}> <Esc>:tabnext
