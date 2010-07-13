@@ -18,8 +18,8 @@ function! SwitchToDefaultInputSource()
 endfunction
 
 function! StoreCurrentAndSwitchToDefaultInputSource()
-  StoreCurrentInputSource()
-  SwitchToDefaultInputSource()
+  call StoreCurrentInputSource()
+  call SwitchToDefaultInputSource()
 endfunction
 
 " Restore stored index of keyboard layout from variable
