@@ -7,6 +7,7 @@ set incsearch		" do incremental searching
 set mouse=a
 syntax on
 set hlsearch
+set undofile
 
 filetype plugin indent on
 autocmd FileType text setlocal textwidth=78
