@@ -9,6 +9,8 @@ syntax on
 set hlsearch
 set undofile
 
+autocmd BufWritePre * :%s/\s\+$//e
+
 filetype plugin indent on
 autocmd FileType text setlocal textwidth=78
 autocmd BufReadPost *
@@ -23,7 +25,7 @@ set autoindent
 set expandtab
 set number
 set nowrap
-set winminheight=0 
+set winminheight=0
 set foldmethod=indent
 set foldlevelstart=99 " all folds are opened
 set guioptions-=T
