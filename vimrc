@@ -44,22 +44,21 @@ let g:gist_browser_command = 'chromium-browser %URL%'
 let g:gist_clip_command = 'xclip -selection clipboard'
 let g:gist_detect_filetype = 1
 
+nnoremap Q gq
+
 nmap <C-}> :tabnext
 imap <C-}> <Esc>:tabnext
 nmap <C-{> :tabprevious
 imap <C-{> <Esc>:tabprevious
 nmap <C-P> :tabnew
 
+
 nmap <C-h> <C-w>h
-imap <C-h> <Esc><C-w>ha
 nmap <C-j> <C-w>j
-imap <C-j> <Esc><C-w>ja
 nmap <C-k> <C-w>k
-imap <C-k> <Esc><C-w>ka
 nmap <C-l> <C-w>l
-imap <C-l> <Esc><C-w>la
 nmap <C-n> <C-w>n
-nmap <C-m> <C-w>_
+nmap <C-M> <C-w>_
 " imap <C-m> <Esc><C-w>_a
 
 nmap <F5> :wa:make

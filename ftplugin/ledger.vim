@@ -34,6 +34,10 @@ if !exists('g:ledger_fillstring')
   let g:ledger_fillstring = ' '
 endif
 
+" useful abbreviations
+ab <buffer> нал активы:наличка
+ab <buffer> втбнал активы:карты:втб:наличка
+
 " If enabled this will list the most detailed matches at the top {{{
 " of the completion list.
 " For example when you have some accounts like this:
