@@ -31,8 +31,10 @@ function! RestoreLastInputSource()
 	endif
 endfunction
 
-autocmd InsertLeave * call StoreCurrentAndSwitchToDefaultInputSource()
-autocmd InsertEnter * call RestoreLastInputSource()
+if has('mac')
+  autocmd InsertLeave * call StoreCurrentAndSwitchToDefaultInputSource()
+  autocmd InsertEnter * call RestoreLastInputSource()
+endif
 
 "noremap : :silent call SwitchToDefaultInputSource()<CR>:
 "noremap <silent> <Esc><Esc> :silent call SwitchToDefaultInputSource()<Esc><Esc>
