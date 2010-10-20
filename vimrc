@@ -45,6 +45,7 @@ let g:gist_clip_command = 'xclip -selection clipboard'
 let g:gist_detect_filetype = 1
 
 nnoremap Q gq
+vnoremap Q gq
 
 nmap <C-}> :tabnext
 imap <C-}> <Esc>:tabnext
