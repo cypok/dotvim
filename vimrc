@@ -47,6 +47,7 @@ let g:gist_detect_filetype = 1
 nmap <Leader>led :e ~/.ledger
 
 nnoremap Q gq
+vnoremap Q gq
 
 nmap <C-}> :tabnext
 imap <C-}> <Esc>:tabnext
