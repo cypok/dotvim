@@ -44,6 +44,8 @@ let g:gist_browser_command = 'chromium-browser %URL%'
 let g:gist_clip_command = 'xclip -selection clipboard'
 let g:gist_detect_filetype = 1
 
+nmap <Leader>led :e ~/.ledger
+
 nnoremap Q gq
 
 nmap <C-}> :tabnext
