@@ -37,6 +37,8 @@ else
   set guifont=Monaco:h12
 end
 
+set fileencodings=utf-8,ucs-bom,cp1251,koi8-r,default,latin1
+
 set tags+=~/.vim/systags
 
 let g:gist_open_browser_after_post = 1
