@@ -25,6 +25,7 @@ set autoindent
 set expandtab
 set number
 set nowrap
+set scrolloff=4
 set winminheight=0
 set foldmethod=indent
 set foldlevelstart=99 " all folds are opened
