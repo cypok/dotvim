@@ -5,3 +5,5 @@ set ts=2 sw=2
 " type in \ref{fig: and press <C-n> you will automatically cycle through
 " all the figure labels. Very useful!
 set iskeyword+=:
+
+set colorcolumn=80
