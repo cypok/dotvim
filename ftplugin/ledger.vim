@@ -35,8 +35,8 @@ if !exists('g:ledger_fillstring')
 endif
 
 " useful abbreviations
-ab <buffer> нал активы:наличка
-ab <buffer> втбнал активы:карты:втб:наличка
+ab <buffer> нал активы:наличные
+ab <buffer> втб активы:карты:втб
 
 " If enabled this will list the most detailed matches at the top {{{
 " of the completion list.
