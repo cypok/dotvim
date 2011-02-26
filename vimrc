@@ -1,9 +1,12 @@
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
+
 set nocompatible
 set backspace=indent,eol,start
-set history=50		" keep 50 lines of command line history
-set ruler		" show the cursor position all the time
-set showcmd		" display incomplete commands
-set incsearch		" do incremental searching
+set history=50
+set ruler
+set showcmd
+set incsearch
 set mouse=a
 syntax on
 set hlsearch
@@ -19,6 +22,7 @@ autocmd BufReadPost *
 \ endif
 
 colorscheme vividchalk
+
 set tabstop=2
 set shiftwidth=2
 set autoindent
@@ -47,8 +51,6 @@ let g:gist_browser_command = 'chromium-browser %URL%'
 let g:gist_clip_command = 'xclip -selection clipboard'
 let g:gist_detect_filetype = 1
 
-nmap <Leader>led :e ~/.ledger
-
 nnoremap Q gq
 vnoremap Q gq
 
@@ -65,14 +67,6 @@ nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
 nmap <C-n> <C-w>n
 nmap <C-M> <C-w>_
-" imap <C-m> <Esc><C-w>_a
-
-nmap <F5> :wa:make
-imap <F5> <Esc>:wa:make
-nmap <F6> :cwin
-imap <F6> <Esc>:cwin
-
-map <F8> :!ctags -R  --c-kinds=+p --fields=+S
 
 nmap <C-Left> zc
 imap <C-Left> <Esc>zca
