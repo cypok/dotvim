@@ -51,6 +51,11 @@ let g:gist_browser_command = 'chromium-browser %URL%'
 let g:gist_clip_command = 'xclip -selection clipboard'
 let g:gist_detect_filetype = 1
 
+let g:kls_focusSwitching = 0
+let g:kls_tabSwitching = 0
+let g:kls_insertEnterRestoresLast = 1
+let g:kls_mappings = 0
+
 nnoremap Q gq
 vnoremap Q gq
 
