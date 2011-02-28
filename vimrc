@@ -46,12 +46,12 @@ elseif has("gui_gtk2")
   set guifont=Monaco\ 8,Andale\ Mono\ 11
 end
 
+set encoding=utf-8
 set fileencodings=utf-8,ucs-bom,cp1251,koi8-r,default,latin1
 
 set tags+=~/.vim/systags
 
-let g:gist_open_browser_after_post = 1
-let g:gist_browser_command = 'chromium-browser %URL%'
+let g:gist_open_browser_after_post = 0
 let g:gist_clip_command = 'xclip -selection clipboard'
 let g:gist_detect_filetype = 1
 
