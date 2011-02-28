@@ -12,7 +12,9 @@ syntax on
 set hlsearch
 set undofile
 
-autocmd BufWritePre * :%s/\s\+$//e
+if !exists("g:spaces_trim_disable")
+  autocmd BufWritePre * :%s/\s\+$//e
+endif
 
 filetype plugin indent on
 autocmd FileType text setlocal textwidth=78
