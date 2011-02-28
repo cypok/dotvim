@@ -1,7 +1,7 @@
 Installation:
 
   Unix:
-    git clone git://github.com/cypok/dotvim.git ~/.vim
+    git clone git@github.com:cypok/dotvim.git ~/.vim
     cd ~/.vim
     git submodule init
     git submodule update
@@ -9,7 +9,7 @@ Installation:
 
   Windows:
     set HOME=%HOMEDRIVE%%HOMEPATH%
-    git clone git://github.com/cypok/dotvim.git "%HOME%\vimfiles"
+    git clone git@github.com:cypok/dotvim.git "%HOME%\vimfiles"
     cd "%HOME%\vimfiles"
     git submodule init
     git submodule update
