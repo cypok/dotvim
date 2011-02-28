@@ -24,6 +24,8 @@ autocmd BufReadPost *
 \ endif
 
 colorscheme vividchalk
+" I hate italic comments
+highlight Comment gui=NONE
 
 set tabstop=2
 set shiftwidth=2
