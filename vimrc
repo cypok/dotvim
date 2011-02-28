@@ -62,6 +62,8 @@ let g:kls_tabSwitching = 0
 let g:kls_insertEnterRestoresLast = 1
 let g:kls_mappings = 0
 
+let g:NERDCustomDelimiters = { 'ledger': { 'left': ';' } }
+
 nnoremap Q gq
 vnoremap Q gq
 
