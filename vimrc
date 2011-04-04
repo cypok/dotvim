@@ -54,8 +54,12 @@ set fileencodings=utf-8,ucs-bom,cp1251,koi8-r,default,latin1
 set tags+=~/.vim/systags
 
 let g:gist_open_browser_after_post = 0
-let g:gist_clip_command = 'xclip -selection clipboard'
 let g:gist_detect_filetype = 1
+if has("macunix")
+  let g:gist_clip_command = 'pbcopy'
+elseif has("gui_win32")
+  let g:gist_clip_command = 'xclip -selection clipboard'
+end
 
 let g:kls_focusSwitching = 0
 let g:kls_tabSwitching = 0
