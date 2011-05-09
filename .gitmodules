@@ -76,3 +76,6 @@
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = git://github.com/edsono/vim-matchit.git
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = git://github.com/plasticboy/vim-markdown.git
