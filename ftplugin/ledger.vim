@@ -1,4 +1,6 @@
 abbr <buffer> нал активы:наличные
 abbr <buffer> втб активы:карты:втб
 
-set ts=4 sw=4
+setlocal ts=4 sw=4
+
+setlocal noundofile
