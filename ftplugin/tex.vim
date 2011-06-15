@@ -9,6 +9,7 @@ setlocal iskeyword+=:
 setlocal iskeyword+=_
 
 setlocal colorcolumn=80
+setlocal textwidth=79
 
 " suppress KeyboardLayoutSwitcher
 autocmd! InsertLeave *
