@@ -10,7 +10,10 @@ set incsearch
 set mouse=a
 syntax on
 set hlsearch
+
 set undofile
+set undolevels=1000 "maximum number of changes that can be undone
+set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 
 if !exists("g:spaces_trim_disable")
   autocmd BufWritePre * :%s/\s\+$//e
