@@ -42,6 +42,7 @@ set foldmethod=indent
 set foldlevelstart=99 " all folds are opened
 
 set guioptions-=T
+set guioptions-=m
 
 if has("gui_win32")
   set lines=999 columns=120
