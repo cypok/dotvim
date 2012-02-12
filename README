@@ -15,3 +15,6 @@ Installation:
     git submodule update
     echo "runtime vimrc" > "%HOME%\_vimrc"
 
+Update bundle:
+  git submodule foreach git pull origin master
+
