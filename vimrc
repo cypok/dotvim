@@ -75,6 +75,10 @@ let g:kls_insertEnterRestoresLast = 1
 let g:kls_mappings = 0
 
 let g:NERDCustomDelimiters = { 'ledger': { 'left': ';' } }
+let g:NERDTreeIgnore=['\~$']
+
+map <Leader>F :FufCoverageFile<CR>
+map <Leader>l :FufLine<CR>
 
 nnoremap Q gq
 vnoremap Q gq
