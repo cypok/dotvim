@@ -1,4 +1,4 @@
-Installation:
+Clone:
 
   Unix:
     git clone git@github.com:cypok/dotvim.git ~/.vim
@@ -15,6 +15,14 @@ Installation:
     git submodule update
     echo "runtime vimrc" > "%HOME%\_vimrc"
 
-Update bundle:
+Push:
+  git push origin master
+
+Pull:
+  git pull origin master
+  git submodule init
+  git submodule update
+
+Update bundles:
   git submodule foreach git pull origin master
 
