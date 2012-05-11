@@ -88,3 +88,6 @@
 [submodule "bundle/highlight"]
 	path = bundle/highlight
 	url = git://github.com/vim-scripts/highlight.vim.git
+[submodule "bundle/exclsr"]
+	path = bundle/exclsr
+	url = git@cypok.info:vim-exclsr.git
