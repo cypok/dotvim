@@ -8,3 +8,5 @@ setlocal textwidth=79
 " suppress KeyboardLayoutSwitcher
 autocmd! InsertLeave *
 autocmd! InsertEnter *
+
+let b:AutoClosePairs = AutoClose#DefaultPairsModified("$", "")
