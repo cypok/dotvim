@@ -6,6 +6,7 @@ Clone:
     git submodule init
     git submodule update
     echo "runtime vimrc" > ~/.vimrc
+    echo "runtime gvimrc" > ~/.gvimrc
 
   Windows:
     set HOME=%HOMEDRIVE%%HOMEPATH%
@@ -14,6 +15,7 @@ Clone:
     git submodule init
     git submodule update
     echo "runtime vimrc" > "%HOME%\_vimrc"
+    echo "runtime gvimrc" > "%HOME%\_gvimrc"
 
 Push:
   git push origin master
