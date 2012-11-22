@@ -77,6 +77,9 @@ let g:kls_tabSwitching = 0
 let g:kls_insertEnterRestoresLast = 1
 let g:kls_mappings = 0
 
+let g:rtfh_theme = 'baycomb'
+let g:rtfh_font = 'Monaco'
+
 let g:NERDCustomDelimiters = { 'ledger': { 'left': ';' } }
 let g:NERDTreeIgnore=['\~$']
 let g:NERDTreeChDirMode=2 " cwd when root is changed

@@ -91,3 +91,6 @@
 [submodule "bundle/exclsr"]
 	path = bundle/exclsr
 	url = git@cypok.info:vim-exclsr.git
+[submodule "bundle/rtf-highlight"]
+	path = bundle/rtf-highlight
+	url = git://github.com/dharanasoft/rtf-highlight.git
