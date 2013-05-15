@@ -2,14 +2,15 @@ Description="MyWhite"
 Default        = { Colour="#101010" }
 Canvas         = { Colour="#ffffff" }
 Number         = { Colour="#298487" }
-Escape         = { Colour="#C72435" }
 String         = { Colour="#C72435" }
-StringPreProc  = { Colour="#C72435" }
-BlockComment   = { Colour="#a0a0a0" }
-LineComment    = { Colour="#a0a0a0" }
+Escape         = String
+StringPreProc  = String
+Interpolation  = { Colour="#C72435" }
+BlockComment   = { Colour="#707070" }
+LineComment    = BlockComment
 PreProcessor   = { Colour="#575757" }
 LineNum        = { Colour="#888888" }
-Operator       = { Colour="#101010" }
+Operator       = Default
 
 Keywords = {
   { Colour= "#101010", Bold=true },
