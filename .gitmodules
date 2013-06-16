@@ -94,3 +94,6 @@
 [submodule "bundle/rtf-highlight"]
 	path = bundle/rtf-highlight
 	url = git://github.com/dharanasoft/rtf-highlight.git
+[submodule "bundle/hdevtools"]
+	path = bundle/hdevtools
+	url = git://github.com/bitc/vim-hdevtools.git
