@@ -9,4 +9,3 @@ setlocal textwidth=79
 autocmd! InsertLeave *
 autocmd! InsertEnter *
 
-let b:AutoClosePairs = AutoClose#DefaultPairsModified("$", "")
