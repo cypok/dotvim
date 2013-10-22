@@ -97,3 +97,6 @@
 [submodule "bundle/hdevtools"]
 	path = bundle/hdevtools
 	url = git://github.com/bitc/vim-hdevtools.git
+[submodule "bundle/sml"]
+	path = bundle/sml
+	url = git@github.com:cypok/vim-sml.git
