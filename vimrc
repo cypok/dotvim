@@ -91,6 +91,8 @@ let g:NERDTreeIgnore=['\~$']
 let g:NERDTreeChDirMode=2 " cwd when root is changed
 let g:NERDTreeHighlightCursorline=0
 
+let g:AutoCloseExpandSpace = 0
+
 map <Leader>F :FufCoverageFile<CR>
 map <Leader>l :FufLine<CR>
 
