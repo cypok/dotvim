@@ -103,3 +103,6 @@
 [submodule "bundle/markdown-tpope"]
 	path = bundle/markdown-tpope
 	url = git@github.com:tpope/vim-markdown.git
+[submodule "bundle/visual-star-search"]
+	path = bundle/visual-star-search
+	url = git@github.com:nelstrom/vim-visual-star-search.git
