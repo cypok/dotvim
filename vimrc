@@ -26,10 +26,6 @@ autocmd BufReadPost *
 \   exe "normal! g`\"" |
 \ endif
 
-" haskell: hdevtools config
-au FileType haskell nnoremap <buffer> <Leader>Ht :HdevtoolsType<CR>
-au FileType haskell nnoremap <buffer> <silent> <Leader>Hc :HdevtoolsClear<CR>
-
 colorscheme vividchalk
 " TODO: check if following lines are required
 " I hate italic comments
@@ -87,7 +83,7 @@ map <Leader>hc :RTFHighlight c<CR>
 map <Leader>hs :RTFHighlight scala<CR>
 
 let g:NERDCustomDelimiters = { 'ledger': { 'left': ';' } }
-let g:NERDTreeIgnore=['\~$']
+let g:NERDTreeIgnore=['\~$', '\.hi$', '\.o$']
 let g:NERDTreeChDirMode=2 " cwd when root is changed
 let g:NERDTreeHighlightCursorline=0
 

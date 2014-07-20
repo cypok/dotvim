@@ -94,9 +94,6 @@
 [submodule "bundle/rtf-highlight"]
 	path = bundle/rtf-highlight
 	url = git://github.com/cypok/rtf-highlight.git
-[submodule "bundle/hdevtools"]
-	path = bundle/hdevtools
-	url = git://github.com/bitc/vim-hdevtools.git
 [submodule "bundle/sml"]
 	path = bundle/sml
 	url = git@github.com:cypok/vim-sml.git
@@ -106,3 +103,9 @@
 [submodule "bundle/visual-star-search"]
 	path = bundle/visual-star-search
 	url = git@github.com:nelstrom/vim-visual-star-search.git
+[submodule "bundle/vimproc"]
+	path = bundle/vimproc
+	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "bundle/ghcmod"]
+	path = bundle/ghcmod
+	url = https://github.com/eagletmt/ghcmod-vim.git
