@@ -8,3 +8,5 @@ nnoremap <buffer> <Leader>ht :GhcModType<CR>
 nnoremap <buffer> <silent> <Leader>hc :GhcModTypeClear<CR>
 nnoremap <buffer> <silent> <Leader>hi :GhcModInfo<CR>
 
+hi ghcmodType ctermfg=0 ctermbg=14 guifg=Black guibg=Yellow
+let g:ghcmod_type_highlight = 'ghcmodType'
