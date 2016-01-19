@@ -1,3 +1,6 @@
+set langmenu=en_US
+let $LANG = 'en_US'
+
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
