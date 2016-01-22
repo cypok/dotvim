@@ -57,8 +57,8 @@ end
 if has("macunix")
   set guifont=Monaco:h12
 elseif has("gui_win32")
-  set guifont=Lucida_Console:h9
-  set linespace=3
+  set guifont=Consolas:h11
+  set linespace=0
 elseif has("gui_gtk2")
   set guifont=Monaco\ 8,Andale\ Mono\ 11
 end
