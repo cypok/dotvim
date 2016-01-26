@@ -76,9 +76,6 @@
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = git://github.com/edsono/vim-matchit.git
-[submodule "bundle/markdown"]
-	path = bundle/markdown
-	url = git://github.com/plasticboy/vim-markdown.git
 [submodule "bundle/L9"]
 	path = bundle/L9
 	url = git://github.com/vim-scripts/L9.git
@@ -97,9 +94,6 @@
 [submodule "bundle/sml"]
 	path = bundle/sml
 	url = git@github.com:cypok/vim-sml.git
-[submodule "bundle/markdown-tpope"]
-	path = bundle/markdown-tpope
-	url = git@github.com:tpope/vim-markdown.git
 [submodule "bundle/visual-star-search"]
 	path = bundle/visual-star-search
 	url = git@github.com:nelstrom/vim-visual-star-search.git
@@ -112,3 +106,6 @@
 [submodule "bundle/gitolite"]
 	path = bundle/gitolite
 	url = git@github.com:tmatilai/gitolite.vim.git
+[submodule "bundle/markdown-plasticboy"]
+	path = bundle/markdown-plasticboy
+	url = https://github.com/plasticboy/vim-markdown.git
