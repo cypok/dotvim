@@ -109,3 +109,6 @@
 [submodule "bundle/markdown-plasticboy"]
 	path = bundle/markdown-plasticboy
 	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = git://github.com/tpope/vim-fugitive.git
