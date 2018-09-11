@@ -42,6 +42,8 @@ set autoindent
 set expandtab
 set number
 set nowrap
+set breakindent " indent lines if wrapping is enabled
+set linebreak " do not brake words if wrapping is enabled
 set scrolloff=4
 set winminheight=0
 set foldmethod=indent
@@ -86,8 +88,13 @@ let g:rtfh_font = 'Courier'
 map <Leader>hc :RTFHighlight c<CR>
 map <Leader>hs :RTFHighlight scala<CR>
 
-let g:NERDCustomDelimiters = { 'ledger': { 'left': ';' } }
-let g:NERDTreeIgnore=['\~$', '\.hi$', '\.o$']
+let g:NERDSpaceDelims = 1
+let g:NERDCustomDelimiters = {
+\  'ledger': { 'left': ';' },
+\  'jcPrj': { 'left': '%' },
+\  'benchTsk': { 'left': '#' }
+\}
+let g:NERDTreeIgnore=['\~$', '\.hi$', '\.o$', '\.class$']
 let g:NERDTreeChDirMode=2 " cwd when root is changed
 let g:NERDTreeHighlightCursorline=0
 
@@ -95,6 +102,10 @@ let g:AutoCloseExpandSpace = 0
 
 map <Leader>F :FufCoverageFile<CR>
 map <Leader>l :FufLine<CR>
+
+" replace currently selected text with default register
+" without yanking it
+vnoremap <leader>p "_dP
 
 nnoremap Q gq
 vnoremap Q gq
