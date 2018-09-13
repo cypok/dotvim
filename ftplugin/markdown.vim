@@ -1,3 +1,5 @@
+" To download dictionaries:
+" :set spell spelllang=ru_ru,en_us
 setlocal spell spelllang=ru_ru,en_us
 
 setlocal colorcolumn=80
