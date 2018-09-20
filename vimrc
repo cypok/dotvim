@@ -13,9 +13,17 @@ set mouse=a
 syntax on
 set hlsearch
 
-set undofile
 set undolevels=1000 "maximum number of changes that can be undone
 set undoreload=10000 "maximum number lines to save for undo on a buffer reload
+if exists("+undofile")
+  " undofile - This allows you to use undos after exiting and restarting
+  " :help undo-persistence
+  if isdirectory($HOME . '/.vim-undo') == 0
+    :silent !mkdir -p ~/.vim-undo > /dev/null 2>&1
+  endif
+  set undodir=~/.vim-undo//
+  set undofile
+endif
 
 if !exists("g:spaces_trim_disable")
   autocmd BufWritePre * :%s/\s\+$//e
