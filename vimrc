@@ -73,7 +73,7 @@ elseif has("gui_gtk2")
 end
 
 set encoding=utf-8
-set fileencodings=utf-8,ucs-bom,cp1251,koi8-r,default,latin1
+set fileencodings=utf-8,ucs-bom,cp1251,koi8-r,utf-16le,default,latin1
 
 set tags+=~/.vim/systags
 
