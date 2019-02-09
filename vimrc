@@ -104,6 +104,13 @@ let g:NERDCustomDelimiters = {
 let g:NERDTreeIgnore=['\~$', '\.hi$', '\.o$', '\.class$']
 let g:NERDTreeChDirMode=2 " cwd when root is changed
 let g:NERDTreeHighlightCursorline=0
+" vifm-like bindings:
+let g:NERDTreeMapActivateNode="l"
+let g:NERDTreeMapCloseDir="h"
+let g:NERDTreeMapOpenSplit="L"
+
+" Open vifm in single pane mode
+let g:vifm_exec_args = "-c only -c 'set vifminfo-=tui'"
 
 let g:AutoCloseExpandSpace = 0
 
