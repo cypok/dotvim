@@ -109,6 +109,10 @@ let g:NERDTreeMapActivateNode="l"
 let g:NERDTreeMapCloseDir="h"
 let g:NERDTreeMapOpenSplit="L"
 
+" Better completion.
+let g:ledger_detailed_first = 1
+let g:ledger_exact_only = 1
+
 " Open vifm in single pane mode
 let g:vifm_exec_args = "-c only -c 'set vifminfo-=tui'"
 
