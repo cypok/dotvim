@@ -112,3 +112,6 @@
 [submodule "bundle/vifm"]
 	path = bundle/vifm
 	url = https://github.com/vifm/vifm.vim.git
+[submodule "bundle/summerfruit256"]
+	path = bundle/summerfruit256
+	url = https://github.com/vim-scripts/summerfruit256.vim.git
