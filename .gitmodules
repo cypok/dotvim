@@ -1,66 +1,66 @@
 [submodule "bundle/vividchalk"]
 	path = bundle/vividchalk
-	url = git://github.com/tpope/vim-vividchalk.git
+	url = git@github.com:tpope/vim-vividchalk.git
 [submodule "bundle/metacosm"]
 	path = bundle/metacosm
-	url = git://github.com/vim-scripts/metacosm.vim.git
+	url = git@github.com:vim-scripts/metacosm.vim.git
 [submodule "bundle/rails"]
 	path = bundle/rails
-	url = git://github.com/tpope/vim-rails.git
+	url = git@github.com:tpope/vim-rails.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
-	url = git://github.com/msanders/snipmate.vim.git
+	url = git@github.com:msanders/snipmate.vim.git
 [submodule "bundle/ruby-debugger"]
 	path = bundle/ruby-debugger
-	url = git://github.com/astashov/vim-ruby-debugger.git
+	url = git@github.com:astashov/vim-ruby-debugger.git
 [submodule "bundle/KeyboardLayoutSwitcher"]
 	path = bundle/KeyboardLayoutSwitcher
 	url = git@github.com:cypok/KeyboardLayoutSwitcher.git
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
-	url = git://github.com/vim-scripts/bufexplorer.zip
+	url = git@github.com:vim-scripts/bufexplorer.zip
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
-	url = git://github.com/scrooloose/nerdcommenter.git
+	url = git@github.com:scrooloose/nerdcommenter.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
+	url = git@github.com:scrooloose/nerdtree.git
 [submodule "bundle/surround"]
 	path = bundle/surround
-	url = git://github.com/tpope/vim-surround.git
+	url = git@github.com:tpope/vim-surround.git
 [submodule "bundle/cucumber"]
 	path = bundle/cucumber
-	url = git://github.com/tpope/vim-cucumber.git
+	url = git@github.com:tpope/vim-cucumber.git
 [submodule "bundle/haml"]
 	path = bundle/haml
-	url = git://github.com/tpope/vim-haml.git
+	url = git@github.com:tpope/vim-haml.git
 [submodule "bundle/ledger"]
 	path = bundle/ledger
-	url = https://github.com/ledger/vim-ledger
+	url = git@github.com:ledger/vim-ledger
 [submodule "bundle/html5"]
 	path = bundle/html5
-	url = git://github.com/othree/html5-syntax.vim.git
+	url = git@github.com:othree/html5-syntax.vim.git
 [submodule "bundle/css3"]
 	path = bundle/css3
-	url = git://github.com/hail2u/vim-css3-syntax.git
+	url = git@github.com:hail2u/vim-css3-syntax.git
 [submodule "bundle/a"]
 	path = bundle/a
-	url = git://github.com/vim-scripts/a.vim.git
+	url = git@github.com:vim-scripts/a.vim.git
 [submodule "bundle/autoclose"]
 	path = bundle/autoclose
-	url = git://github.com/Townk/vim-autoclose.git
+	url = git@github.com:Townk/vim-autoclose.git
 [submodule "bundle/endwise"]
 	path = bundle/endwise
-	url = git://github.com/tpope/vim-endwise.git
+	url = git@github.com:tpope/vim-endwise.git
 [submodule "bundle/gist"]
 	path = bundle/gist
-	url = git://github.com/mattn/gist-vim.git
+	url = git@github.com:mattn/gist-vim.git
 [submodule "bundle/tetris"]
 	path = bundle/tetris
-	url = git://github.com/vim-scripts/TeTrIs.vim.git
+	url = git@github.com:vim-scripts/TeTrIs.vim.git
 [submodule "bundle/tex_autoclose"]
 	path = bundle/tex_autoclose
-	url = git://github.com/vim-scripts/tex_autoclose.vim.git
+	url = git@github.com:vim-scripts/tex_autoclose.vim.git
 [submodule "bundle/modula2"]
 	path = bundle/modula2
 	url = git@github.com:cypok/vim-modula2.git
@@ -69,22 +69,22 @@
 	url = git@github.com:cypok/vim-oberon2.git
 [submodule "bundle/scala"]
 	path = bundle/scala
-	url = git://github.com/rosstimson/scala-vim-support.git
+	url = git@github.com:rosstimson/scala-vim-support.git
 [submodule "bundle/L9"]
 	path = bundle/L9
-	url = git://github.com/vim-scripts/L9.git
+	url = git@github.com:vim-scripts/L9.git
 [submodule "bundle/FuzzyFinder"]
 	path = bundle/FuzzyFinder
-	url = git://github.com/vim-scripts/FuzzyFinder.git
+	url = git@github.com:vim-scripts/FuzzyFinder.git
 [submodule "bundle/highlight"]
 	path = bundle/highlight
-	url = git://github.com/vim-scripts/highlight.vim.git
+	url = git@github.com:vim-scripts/highlight.vim.git
 [submodule "bundle/exclsr"]
 	path = bundle/exclsr
 	url = git@cypok.info:vim-exclsr.git
 [submodule "bundle/rtf-highlight"]
 	path = bundle/rtf-highlight
-	url = git://github.com/cypok/rtf-highlight.git
+	url = git@github.com:cypok/rtf-highlight.git
 [submodule "bundle/sml"]
 	path = bundle/sml
 	url = git@github.com:cypok/vim-sml.git
@@ -93,22 +93,22 @@
 	url = git@github.com:nelstrom/vim-visual-star-search.git
 [submodule "bundle/vimproc"]
 	path = bundle/vimproc
-	url = https://github.com/Shougo/vimproc.vim.git
+	url = git@github.com:Shougo/vimproc.vim.git
 [submodule "bundle/ghcmod"]
 	path = bundle/ghcmod
-	url = https://github.com/eagletmt/ghcmod-vim.git
+	url = git@github.com:eagletmt/ghcmod-vim.git
 [submodule "bundle/gitolite"]
 	path = bundle/gitolite
 	url = git@github.com:tmatilai/gitolite.vim.git
 [submodule "bundle/markdown-plasticboy"]
 	path = bundle/markdown-plasticboy
-	url = https://github.com/plasticboy/vim-markdown.git
+	url = git@github.com:plasticboy/vim-markdown.git
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
-	url = git://github.com/tpope/vim-fugitive.git
+	url = git@github.com:tpope/vim-fugitive.git
 [submodule "bundle/vifm"]
 	path = bundle/vifm
-	url = https://github.com/vifm/vifm.vim.git
+	url = git@github.com:vifm/vifm.vim.git
 [submodule "bundle/summerfruit256"]
 	path = bundle/summerfruit256
-	url = https://github.com/vim-scripts/summerfruit256.vim.git
+	url = git@github.com:vim-scripts/summerfruit256.vim.git
