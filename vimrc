@@ -47,7 +47,6 @@ set tabstop=2
 set shiftwidth=2
 set autoindent
 set expandtab
-set number
 set nowrap
 set breakindent " indent lines if wrapping is enabled
 set linebreak " do not brake words if wrapping is enabled
@@ -76,6 +75,14 @@ set encoding=utf-8
 set fileencodings=utf-8,ucs-bom,cp1251,koi8-r,utf-16le,default,latin1
 
 set tags+=~/.vim/systags
+
+set number
+
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
+  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
+augroup END
 
 let g:gist_open_browser_after_post = 0
 let g:gist_detect_filetype = 1
