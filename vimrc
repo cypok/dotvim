@@ -102,6 +102,7 @@ let g:rtfh_font = 'Courier'
 map <Leader>hc :RTFHighlight c<CR>
 map <Leader>hs :RTFHighlight scala<CR>
 
+nmap <Leader>n :NERDTreeFocus<CR>
 let g:NERDSpaceDelims = 1
 let g:NERDCustomDelimiters = {
 \  'ledger': { 'left': ';' },
@@ -130,34 +131,38 @@ map <Leader>l :FufLine<CR>
 
 " replace currently selected text with default register
 " without yanking it
-vnoremap <leader>p "_dP
+vnoremap <Leader>p "_dP
 
 nnoremap Q gq
 vnoremap Q gq
 
 " mapping to make movements operate on 1 screen line in wrap mode
-function! ScreenMovement(movement)
-  if &wrap
-    return "g" . a:movement
-  else
-    return a:movement
-  endif
-endfunction
-vnoremap <silent> <expr> j ScreenMovement("j")
-vnoremap <silent> <expr> k ScreenMovement("k")
-vnoremap <silent> <expr> 0 ScreenMovement("0")
-vnoremap <silent> <expr> ^ ScreenMovement("^")
-vnoremap <silent> <expr> $ ScreenMovement("$")
-onoremap <silent> <expr> j ScreenMovement("j")
-onoremap <silent> <expr> k ScreenMovement("k")
-onoremap <silent> <expr> 0 ScreenMovement("0")
-onoremap <silent> <expr> ^ ScreenMovement("^")
-onoremap <silent> <expr> $ ScreenMovement("$")
-nnoremap <silent> <expr> j ScreenMovement("j")
-nnoremap <silent> <expr> k ScreenMovement("k")
-nnoremap <silent> <expr> 0 ScreenMovement("0")
-nnoremap <silent> <expr> ^ ScreenMovement("^")
-nnoremap <silent> <expr> $ ScreenMovement("$")
+" IdeaVim is not aware of &wrap and breaks everything,
+" moreover it moves good " out of the box
+if !has("ide")
+  function! ScreenMovement(movement)
+    if &wrap
+      return "g" . a:movement
+    else
+      return a:movement
+    endif
+  endfunction
+  vnoremap <silent> <expr> j ScreenMovement("j")
+  vnoremap <silent> <expr> k ScreenMovement("k")
+  vnoremap <silent> <expr> 0 ScreenMovement("0")
+  vnoremap <silent> <expr> ^ ScreenMovement("^")
+  vnoremap <silent> <expr> $ ScreenMovement("$")
+  onoremap <silent> <expr> j ScreenMovement("j")
+  onoremap <silent> <expr> k ScreenMovement("k")
+  onoremap <silent> <expr> 0 ScreenMovement("0")
+  onoremap <silent> <expr> ^ ScreenMovement("^")
+  onoremap <silent> <expr> $ ScreenMovement("$")
+  nnoremap <silent> <expr> j ScreenMovement("j")
+  nnoremap <silent> <expr> k ScreenMovement("k")
+  nnoremap <silent> <expr> 0 ScreenMovement("0")
+  nnoremap <silent> <expr> ^ ScreenMovement("^")
+  nnoremap <silent> <expr> $ ScreenMovement("$")
+end
 
 nmap <C-}> :tabnext
 imap <C-}> <Esc>:tabnext
@@ -174,9 +179,11 @@ nmap <C-n> <C-w>n
 nmap <C-M> <C-w>_
 
 nmap <C-Left> zc
-imap <C-Left> <Esc>zca
+imap <C-Left> <Esc>zc
+a
 nmap <C-Right> zo
-imap <C-Right> <Esc>zoa
+imap <C-Right> <Esc>zo
+a
 
 vmap <C-Insert> "+y
 nmap <S-Insert> "+p
@@ -184,6 +191,18 @@ imap <S-Insert> <C-o><S-Insert>
 
 nmap <Home> ^
 imap <Home> <Esc>^i
+
+" IdeaVim specific part
+if has("ide")
+  set NERDTree
+
+  nmap <Leader>s <action>(Run)
+  nmap <Leader>d <action>(Debug)
+
+  nmap <A-K> v<action>(EditorSelectWord)
+  vmap <A-K> <action>(EditorSelectWord)
+  vmap <A-J> <action>(EditorUnSelectWord)
+endif
 
 map ё `
 map й q
