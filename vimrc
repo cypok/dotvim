@@ -102,7 +102,7 @@ let g:rtfh_font = 'Courier'
 map <Leader>hc :RTFHighlight c<CR>
 map <Leader>hs :RTFHighlight scala<CR>
 
-nmap <Leader>n :NERDTreeFocus<CR>
+nmap <Leader>n :NERDTreeFind<CR>
 let g:NERDSpaceDelims = 1
 let g:NERDCustomDelimiters = {
 \  'ledger': { 'left': ';' },
@@ -179,11 +179,9 @@ nmap <C-n> <C-w>n
 nmap <C-M> <C-w>_
 
 nmap <C-Left> zc
-imap <C-Left> <Esc>zc
-a
+imap <C-Left> <Esc>zca
 nmap <C-Right> zo
-imap <C-Right> <Esc>zo
-a
+imap <C-Right> <Esc>zoa
 
 vmap <C-Insert> "+y
 nmap <S-Insert> "+p
@@ -198,6 +196,7 @@ if has("ide")
 
   nmap <Leader>s <action>(Run)
   nmap <Leader>d <action>(Debug)
+  nmap <Leader>r <action>(XDebugger.Hotswap.Modified.Files)
 
   nmap <A-K> v<action>(EditorSelectWord)
   vmap <A-K> <action>(EditorSelectWord)
